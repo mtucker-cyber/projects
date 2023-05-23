@@ -20,3 +20,5 @@ class Saver:
             if os.stat(self.file).st_size == 0:
                 return []
             return json.loads(data)
+        
+        
